@@ -1,0 +1,11 @@
+{
+  "name": "secure-messaging-app",
+  "private": true,
+  "scripts": {
+    "install:all": "npm --prefix Backend install && npm --prefix frontend install",
+    "build": "npm --prefix frontend run build",
+    "start": "npm --prefix Backend start",
+    "dev:backend": "npm --prefix Backend run dev",
+    "dev:frontend": "npm --prefix frontend run dev"
+  }
+}
